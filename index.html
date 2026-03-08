@@ -5,110 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learnmore K Magorimbo</title>
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
+    body{
       font-family: Arial, sans-serif;
-      background: #f4f6f9;
-      color: #222;
-      line-height: 1.6;
+      margin:0;
+      background:#f4f6f9;
+      color:#222;
+      line-height:1.7;
     }
-
-    header {
-      background: linear-gradient(135deg, #0a3d62, #145a86);
-      color: white;
-      text-align: center;
-      padding: 50px 20px;
+    header{
+      background:#0a3d62;
+      color:white;
+      text-align:center;
+      padding:50px 20px;
     }
-
-    header img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid white;
-      margin-bottom: 15px;
+    nav{
+      background:white;
+      text-align:center;
+      padding:15px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.08);
     }
-
-    header h1 {
-      font-size: 2.2rem;
-      margin-bottom: 10px;
+    nav a{
+      text-decoration:none;
+      color:#0a3d62;
+      font-weight:bold;
+      margin:0 10px;
     }
-
-    header p {
-      font-size: 1rem;
+    .container{
+      max-width:950px;
+      margin:30px auto;
+      padding:0 15px;
     }
-
-    nav {
-      background: white;
-      text-align: center;
-      padding: 15px 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      position: sticky;
-      top: 0;
+    .card{
+      background:white;
+      padding:25px;
+      margin-bottom:20px;
+      border-radius:12px;
+      box-shadow:0 3px 12px rgba(0,0,0,0.08);
     }
-
-    nav a {
-      text-decoration: none;
-      color: #0a3d62;
-      font-weight: bold;
-      margin: 0 10px;
-      display: inline-block;
-      padding: 6px 0;
+    h2{
+      color:#0a3d62;
     }
-
-    .container {
-      max-width: 1050px;
-      margin: 30px auto;
-      padding: 0 18px;
+    footer{
+      background:#0a3d62;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:30px;
     }
+  </style>
+</head>
+<body>
 
-    .card {
-      background: white;
-      padding: 25px;
-      margin-bottom: 22px;
-      border-radius: 14px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-    }
+<header>
+  <h1>Learnmore K Magorimbo</h1>
+  <p>Entrepreneur | CEO | Pan-African Youth Activist | Writer</p>
+</header>
 
-    .card h2 {
-      color: #0a3d62;
-      margin-bottom: 14px;
-    }
+<nav>
+  <a href="#about">About</a>
+  <a href="#ventures">Ventures</a>
+  <a href="#political">Political Journey</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-    .card p {
-      margin-bottom: 12px;
-    }
+<div class="container">
 
-    ul {
-      padding-left: 20px;
-    }
+  <div class="card" id="about">
+    <h2>About Me</h2>
+    <p>
+      Learnmore Kumbirai Magorimbo is an African entrepreneur, founder, writer, and Pan-African youth activist committed to building practical African solutions through business, innovation, and leadership.
+    </p>
+    <p>
+      He is the owner and director behind multiple ventures including MyWorka, TripBot, Wash N Go Cleaning Services, Maq Ruwan, and Gate Garage Welding. His work reflects a strong passion for enterprise development, job creation, industrial growth, service excellence, logistics innovation, and African economic transformation.
+    </p>
+    <p>
+      Learnmore’s entrepreneurial vision is rooted in empowering communities, supporting workers, developing African-owned brands, and creating systems that solve real everyday problems in transport, services, welding, manufacturing, and digital marketplaces.
+    </p>
+  </div>
 
-    li {
-      margin-bottom: 10px;
-    }
+  <div class="card" id="ventures">
+    <h2>Entrepreneurial Ventures</h2>
+    <p><b>MyWorka</b> – A platform concept designed to connect workers, service providers, and clients while helping empower the informal and skilled workforce.</p>
+    <p><b>TripBot</b> – A transport and logistics concept focused on load coordination, trips, and movement of goods across markets.</p>
+    <p><b>Wash N Go Cleaning Services</b> – A professional cleaning company serving homes and businesses with quality cleaning solutions.</p>
+    <p><b>Maq Ruwan</b> – An ambitious automotive and industrial vision focused on African manufacturing, engineering, and vehicle development.</p>
+    <p><b>Gate Garage Welding</b> – A welding and fabrication business providing gates, structural work, security installations, and metal solutions.</p>
+  </div>
 
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      justify-content: center;
-    }
+  <div class="card" id="political">
+    <h2>Political Journey and Activism</h2>
+    <p>
+      From a very young age, Learnmore became involved in political and civic activism, driven by a commitment to justice, democracy, constitutionalism, and accountable leadership in Africa.
+    </p>
+    <p>
+      His journey in activism included participation in youth and democratic movements, political involvement, and Pan-African youth engagement. Along the way, he endured persecution and torture, experiences that deepened rather than weakened his dedication to freedom, dignity, and the rights of African people.
+    </p>
+    <p>
+      He remains committed to the vision of a united, empowered, and self-determined Africa, and sees himself as a citizen of Africa’s shared future.
+    </p>
+  </div>
 
-    .gallery img {
-      width: 100%;
-      max-width: 250px;
-      border-radius: 12px;
-      object-fit: cover;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    }
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Email: washngosa@gmail.com</p>
+  </div>
 
-    .button {
-      display: inline-block;
-      background: #0a3d62;
-      color: white;
-      text-decoration: none
+</div>
+
+<footer>
+  <p>© 2026 Learnmore K Magorimbo</p>
+</footer>
+
+</body>
+</html>
